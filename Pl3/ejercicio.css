@@ -1,0 +1,121 @@
+div{ /* Contenido para todos los div */
+    width: 100%;
+    float:left; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Incluye el margen en el ancho total */
+    padding: 0;
+}
+/* Para estos dos divisores podemos aplicar el redondeo a todos los bordes */
+#div-5, #div-6{
+    border-radius: 10px;
+}
+
+#div-1{
+    height:5%;
+    background-color: rgb(247, 247, 148);
+    border-right: 1px solid grey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* PARA ALINEAR LOS ELEMENTOS VERTICALMENTE
+    tiene que tener una altura fijada para que no se descoloque */
+    display: flex; /* Utilizamos flexbox */
+    text-decoration: underline; /* Aplica subrayado al texto */
+    text-transform: uppercase; /* Ponemos en mayúsculas*/
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#div-2{
+    height:15%;
+    background-color: rgb(238, 165, 157);
+    border-bottom: 1px solid grey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+}
+
+#div-3{
+    height:15%;
+    background-color: rgb(238, 165, 157);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#div-4{
+    height:5%;
+    background-color: rgb(247, 247, 148);
+    border-left: 1px solid grey;
+    box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+}
+
+#div-5{
+    height:22.5%;
+    box-sizing: border-box;
+    background-color: rgb(155, 212, 155);
+    display: flex;
+}
+
+#div-6{
+    height:5.5%;
+    background-color: rgb(174, 174, 234);
+    box-sizing: border-box;
+    display: flex;
+}
+
+/* Hacemos una columna más ancha que la otra */
+#col1{
+    width: 40%;
+    box-sizing: border-box; 
+}
+
+#col2{
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+.margen-derecha {
+    margin-right: 10px;
+}
+
+.margen-inferior {
+    margin-bottom: 15px;
+}
+
+.margen-izquierda{
+    margin-left: 10px;
+}
+
+span{
+    background-color: rgba(202, 52, 36, 0.659) ;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+span1{
+    color:rgb(75, 96, 217);
+    border-bottom: 1px solid #b51616;
+}
+
+/* Para el hueco amarillo entre las columnas en la primera fila aplicamos lo siguiente*/
+.contenedor-con-margen {
+    background-color: rgb(247, 247, 148);
+    width: 10px;
+    height: 38px; /* Ajustamos al largo de los div1 y div2*/
+    border: 10px solid rgb(247, 247, 148);
+}
+
+strong{
+    margin-right: 4px;
+    margin-left: 4px;
+    
+}
